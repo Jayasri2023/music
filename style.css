@@ -1,0 +1,429 @@
+body
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+}
+#nav-bar
+{
+height: 100px;
+}
+.logo
+{
+    margin-left: 80px;
+}
+#homec 
+{
+    color: white;
+    padding-left: 260px;
+font-family: 'Oswald', sans-serif;
+font-size: 25px;
+}
+#home:hover
+{
+    color: grey;
+}
+#nav-list
+{
+    color:white;
+    font-family: 'Oswald', sans-serif;
+font-size: 25px;
+}
+#nav-list:hover
+{
+    color:grey;
+}
+#search
+{
+    padding-left: 330px;
+}
+#banner
+{
+    background: url(banner.png);
+    height: 800px;
+ 
+}
+.banner-text
+{
+    
+    color: white;
+    padding-top: 350px;
+    padding-left: 80px;
+}
+.banner-h1
+{
+    font-family:'Oswald', sans-serif ;
+    font-size: 124.63px;
+}
+.banner-p
+{
+font-family: 'Montserrat', sans-serif;
+font-size: 29.72px;
+width: 50%;
+}
+.banner-button
+{
+    background-color: #e8631c;
+    color:white;
+    padding: 15px 65px;
+    font-family:'Oswald', sans-serif ;
+font-size: 29.17px;
+}
+.banner-button:hover
+{
+    background-color: white;
+    color: black;
+}
+#dance-tour
+{
+    background: url(dance-tour-design.png),url(Background-dance-tour.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    height: 960px;   
+}
+.dance-h1
+{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 75px;
+    padding-top: 100px;
+    text-align: center;
+}
+.dance-p
+{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 29.72px;
+        width: 80%;
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 200px;
+}
+#dance-row
+{
+    text-align: center;
+    margin-top: 85px;
+    margin-left: 50px;
+}
+#dance-grid{
+border-style: none;
+}
+#dance-text
+{
+    background-color: #303030;
+}
+.card-img
+{
+    overflow: hidden;
+}
+#dance-pic
+{
+    transition: all 3s ease;
+}
+.card-img:hover #dance-pic
+{
+    transform: scale(1.2);
+}
+
+.dance-pic-h1
+{
+    font-size: 36.95px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.dance-pic-p
+{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 22.17px;   
+}
+#pricing
+{
+    background: url(pricing-design.png), url(black-background.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 970px;
+}
+.pricing-h1
+{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 75px;
+    padding-top: 100px;
+    text-align: center;   
+}
+.pricing-p
+{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 29.72px;
+        width: 80%;
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 200px;
+}
+.pricing-card
+{
+    height: 490px;
+    width: 370px;
+    background-color: #e8631c;
+}
+#pricing-grid
+{
+    text-align: center;
+    margin-top: 85px;
+    margin-left: 25px;
+}
+.pricing-icon
+{
+    margin-top: 50px;
+}
+.pricing-card-h1
+{
+    font-size: 36.95px;
+    color: white;
+    font-family: 'Oswald', sans-serif; 
+    padding-top: 40px;
+}
+.pricing-card-p
+{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 22.17px;
+    padding-top: 30px;
+}
+.pricing-card-button
+{
+    margin-top: 20px;
+    background-color:#303030;
+    color: white;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 100px;
+}
+#amazing-dance
+{
+    height: 957px;
+}
+#amazing-pic
+{
+ background: url(amazing-image.png);
+ height: 957px;
+}
+#amazing-grid
+{
+    background: url(pricing-design.png), url(amazing-background.png);
+    background-position: bottom top;
+}
+.amazing-text
+{
+    padding-left: 85px;
+}
+.amazing-h1
+{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 75px;
+    padding-top: 325px;
+    
+}
+.amazing-p
+{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 29.72px;
+    
+    padding-top: 75px;
+}
+.amazing-button
+{
+    background-color:#303030;
+    color: white;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 100px;
+    
+    margin-top: 75px;
+}
+#best-grid
+{
+    background: url(pricing-design.png), url(amazing-background.png);
+    background-position: top;
+}
+.best-text
+{
+    padding-left: 85px;
+}
+.best-h1
+{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 75px;
+    padding-top: 325px;
+    
+}
+.best-p
+{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 29.72px;   
+    padding-top: 75px;
+}
+.best-button
+{
+    background-color:#303030;
+    color: white;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 100px;
+    margin-top: 75px;
+}
+#best-pic
+{
+    background: url(best-dance-pic.png);
+    height: 957px;
+}
+#stat
+{
+    height: 975px;
+    background-color:#303030;
+}
+.stat-h1
+{
+ color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 75px;
+    padding-top: 200px;
+text-align: center;
+}
+.stat-p
+{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 29.72px;
+        width: 80%;
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 200px;   
+}
+#review
+{
+    margin-top: 195px;
+text-align: center;
+}
+.number
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 66.84px;
+    color:white;
+}
+.number-p
+{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 41.67px;
+}
+#simon
+{
+    background: url(herbert\ simon.png);
+    height: 965px;
+}
+.simon-p
+{
+    font-size: 50px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+text-align: center;
+padding-left: 50px;
+padding-top: 340px;
+}
+.simon-h1
+{
+    color:white;
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 58.33px;
+text-align: center;
+padding-top: 80px; 
+}
+#subscribe
+{
+    background: url(subscribe-design.png), url(subscribe.png);
+    height:590px;
+}
+.subscribe-h1
+{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 75px;
+    padding-top: 100px;
+    text-align: center;
+}
+.subscribe-p
+{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 29.72px;
+        width: 80%;
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 200px;
+}
+#subscribe-search
+{
+    height: 10%;
+    width: 45%;
+    border: none;
+    margin-left: 225px;
+    margin-top: 60px;
+}
+.subscribe-button
+{
+    margin-top: 60px;
+    height: 10%;
+    width: 15%;
+    background-color:#303030;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;    
+}
+#footer
+{
+    height: 580px;
+    background-color:#303030;
+    color: white;
+}
+.footer-h1
+{
+    font-size: 33.33px;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 125px;
+}
+.footer-para
+{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;   
+    padding-top: 50px;
+line-height: 1;
+text-align: justify;
+    width: 100%;  
+}
+.footer-img
+{
+    margin-top: 50px;
+}
+.footer-p1
+{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;   
+    padding-top: 50px;
+}
+/* #footer-col-about
+{
+    margin-left: 200px;
+} */
+.footer-p
+{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}

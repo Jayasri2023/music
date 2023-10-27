@@ -1,0 +1,422 @@
+@media (max-width: 575.98px)
+ { 
+.logo
+{
+    margin-left: 0;
+}
+#banner
+{
+    height: auto;
+background-size:100% 100%;
+background-repeat: no-repeat; 
+}
+.banner-text
+{
+    padding-top: 65px;
+    padding-left: 0px;
+}
+.banner-h1
+{
+    font-size: 20px;
+}
+.banner-p
+{
+    font-size: 10px;
+}
+.banner-button
+{
+    padding: 5px 15px;
+    font-size: 10px;
+}
+#dance-tour
+{
+    height: auto;
+background-size: 100% 100%;
+background-repeat: no-repeat;     
+}
+.dance-p
+{
+    font-size: 20px;
+    width: 100%;
+padding-left: 0px;
+}
+#dance-row
+{
+    margin-left: 0;
+}
+#dance-grid
+{
+   margin-top: 20px;
+max-width: fit-content;
+}
+#pricing
+{
+    height: auto;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+.pricing-p
+{
+    font-size: 30px;
+    width: 100%;
+padding-left: 0px;
+}
+#pricing-grid
+{
+   margin-left: 0; 
+}
+.pricing-card
+{
+    margin-top: 30px;
+max-width: fit-content;
+}
+#amazing-dance
+{
+    height: auto;
+}
+#amazing-pic
+{
+    height: 500px;   
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#amazing-grid
+{
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+ .amazing-text
+{
+    padding-left: 50px;
+}
+.amazing-h1
+{
+    font-size: 60px;
+}
+.amazing-p
+{
+    font-size: 25px;
+}
+.amazing-button
+{
+    margin-left: 10px;
+    
+}
+#best-dance
+{
+    height: auto;
+}
+#best-pic
+{
+height: 500px;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+#stat
+{
+    height: auto;
+}
+.stat-h1
+{
+    font-size: 50px;
+} 
+.stat-p
+{
+    font-size: 20px;
+    width: 100%;
+padding-left: 0px;
+}
+#simon
+{
+    height: auto;
+    background-size:100% 100%;
+    background-repeat: no-repeat;         
+}
+.simon-p
+{
+    font-size: 25px;
+    padding-top: 50px;
+}
+.simon-h1
+{
+    padding-top: 30px;
+    font-size: 40px;
+
+}
+#subscribe
+{
+    height:auto;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+.subscribe-h1
+{
+    font-size: 50px;
+}
+.subscribe-p
+{
+    font-size: 20px;
+    width: 100%;
+padding-left: 0px;
+}
+#subscribe-search
+{
+    margin-left: 0px;
+}
+#footer
+{
+    height:auto;
+    text-align: center;
+}
+.footer-para
+{
+    font-size: 20px;
+    text-align: left;
+}
+ }
+ @media (min-width: 576px) and (max-width: 767.98px) 
+ { 
+    #banner
+    {
+        height: auto;
+background-size:100% 100%;
+background-repeat: no-repeat; 
+    }
+    .banner-text
+    {
+        padding-top: 160px;
+        padding-left: 30px;
+    }
+    .banner-h1
+    {
+        font-size: 50px;
+    }
+    .banner-p
+    {
+        font-size: 15px;
+    }
+    .banner-button
+    {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    #dance-tour
+{
+    height: auto;
+background-size: 100% 100%;
+background-repeat: no-repeat;    
+}
+.dance-p
+{
+    font-size: 22px;
+    width: 100%;
+padding-left: 0px;
+}
+#dance-grid
+{
+   margin-top: 20px;
+margin-left: 90px;
+}
+.pricing-p
+{
+    font-size: 22px;
+    width: 100%;
+padding-left: 0px;
+}
+#pricing
+{
+    height: auto;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+.pricing-card
+{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#amazing-pic
+{
+ height: 957px;   
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+ .amazing-text
+{
+    padding-left: 50px;
+}
+.amazing-button
+{
+    margin-left: 10px;
+}
+.amazing-p
+{
+    font-size: 20px;
+}
+#best-dance
+{
+    height: auto;   
+    
+}
+#best-pic
+{
+    height: 957px;   
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.best-text
+{
+    padding-left: 50px;
+}
+.best-button
+{
+    margin-left: 10px;
+}
+.best-p
+{
+    font-size: 20px;
+}
+.stat-h1
+{
+    padding-top: 50px;
+}
+#review
+{
+    margin-top: 50px;
+    text-align: none;
+}
+.number
+{
+font-size: 50px;
+}
+.number-p
+{
+    font-size: 40px;
+}
+#simon
+{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+ }
+@media (min-width: 768px) and (max-width: 991.98px) 
+{
+
+    #banner
+    {
+        height: auto;
+background-size:100% 100%;
+background-repeat: no-repeat; 
+    }
+    .banner-text
+    {
+        padding-top: 200px;
+        padding-left: 30px;
+    }
+    .banner-h1
+    {
+        font-size: 60px;
+    }
+    .banner-p
+    {
+        font-size: 17px;
+    }
+    .banner-button
+    {
+        padding: 10px 20px;
+        font-size: 17px;
+    }
+    #dance-tour
+{
+    height: auto;
+background-size: 100% 100%;
+background-repeat: no-repeat;    
+}
+#dance-grid
+{
+    margin-top: 30px;
+}
+#pricing
+{
+    height: auto;
+background-size: 100% 100%;
+background-repeat: no-repeat;    
+}
+.pricing-card
+{
+    margin-top: 30px;
+}
+#amazing-pic
+{
+ height: 957px;   
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.amazing-p
+{
+    font-size: 22px;
+}
+#best-pic
+{
+ height: 957px;   
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.best-p
+{
+    font-size: 22px;
+}
+#simon
+{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) 
+{
+    .banner-h1
+    {
+        font-size: 100px;
+    }
+    .banner-p{
+        width:70%;
+    }
+    #search
+    {
+        padding-left: 160px;
+    }
+    #dance-tour
+    {
+        height: auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;    
+    }
+    #dance-grid
+    {
+        margin-top: 30px;
+    }
+    #pricing
+    {
+        height: auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;    
+    }
+    .pricing-card
+    {
+
+        margin-top: 30px;
+    }
+    #amazing-pic
+{
+ height: 957px;   
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#best-pic
+{
+ height: 957px;   
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+  }

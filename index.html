@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200&family=Rowdies:wght@300;400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Oswald:wght@200;300;400;500;600;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200&family=Rowdies:wght@300;400&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark" id="nav-bar">
+    <a class="navbar-brand" href="#"><img class="logo" src="Logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#" id="home">
+            Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="nav-list">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="nav-list">Promo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="nav-list">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="nav-list">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="search"><i class="fa-solid fa-magnifying-glass fa-lg"
+              style="color: #faf5f5;"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section class="container-fluid" id="banner">
+    <div class="banner-text">
+      <h1 class="banner-h1">Title Here</h1>
+      <p class="banner-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum obcaecati eligendi perferendis?
+        Distinctio, minima!</p>
+      <button class="banner-button">REGISTER NOW</button>
+    </div>
+  </section>
+  <section class="container-fluid" id="dance-tour">
+    <h1 class="dance-h1">DANCE TOUR</h1>
+    <p class="dance-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorum aliquid quod cumque
+      assumenda.</p>
+    <div class="row" id="dance-row">
+      <div class="col">
+        <div class="card" style="width: 22rem;" id="dance-grid">
+          <div class="card-img"></div>
+          <img src="dance-pic-one.png" class="card-img-top" alt="...">
+          <div class="card-body" id="dance-text">
+            <h1 class="dance-pic-h1">ASIA</h1>
+            <p class="dance-pic-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 22rem;" id="dance-grid">
+          <div class="card-img">
+          <img src="dance-pic-two.png" class="card-img-top" alt="..." id="dance-pic">
+        </div>
+          <div class="card-body" id="dance-text">
+            <h1 class="dance-pic-h1">ASIA</h1>
+            <p class="dance-pic-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 22rem;" id="dance-grid">
+          <div class="card-img">
+          <img src="dance-pic-three.png" class="card-img-top" alt="..." id="dance-pic">
+        </div>
+          <div class="card-body" id="dance-text">
+            <h1 class="dance-pic-h1">ASIA</h1>
+            <p class="dance-pic-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid" id="pricing">
+    <h1 class="pricing-h1">PRICING</h1>
+    <p class="pricing-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis perferendis quia excepturi.
+      Cumque, odio.</p>
+    <div class="row" id="pricing-grid">
+      <div class="col">
+        <div class="pricing-card">
+          <img class="pricing-icon" src="pricing-icon.png">
+          <h1 class="pricing-card-h1">BASIC</h1>
+          <p class="pricing-card-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <button class="pricing-card-button">$200.00</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="pricing-card">
+          <img class="pricing-icon" src="pricing-icon.png">
+          <h1 class="pricing-card-h1">BASIC</h1>
+          <p class="pricing-card-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <button class="pricing-card-button">$200.00</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="pricing-card">
+          <img class="pricing-icon" src="pricing-icon.png">
+          <h1 class="pricing-card-h1">BASIC</h1>
+          <p class="pricing-card-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <button class="pricing-card-button">$200.00</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid" id="amazing-dance">
+    <div class="row">
+      <div class="col" id="amazing-pic">
+      </div>
+      <div class="col" id="amazing-grid">
+        <div class="amazing-text">
+          <h1 class="amazing-h1">AMAZING DANCE</h1>
+          <p class="amazing-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aspernatur dignissimos quo
+            mollitia placeat molestias!</p>
+          <button class="amazing-button">READ MORE</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid" id="best-dance">
+    <div class="row">
+      <div class="col" id="best-grid">
+        <div class="best-text">
+          <h1 class="best-h1"> BEST DANCE</h1>
+          <p class="best-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis odit asperiores quis
+            excepturi fugiat aspernatur.</p>
+          <button class="best-button">READ MORE</button>
+        </div>
+      </div>
+      <div class="col" id="best-pic">
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid" id="stat">
+    <h1 class="stat-h1">OUR STATISTICS</h1>
+    <p class="stat-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iste consectetur reprehenderit
+      est voluptate?</p>
+    <div class="container">
+      <div class="row" id="review">
+        <div class="col">
+          <h1 class="number">1240+</h1>
+          <p class="number-p">Club</p>
+        </div>
+        <div class="col">
+          <h1 class="number">1240+</h1>
+          <p class="number-p">Active Member</p>
+        </div>
+        <div class="col">
+          <h1 class="number">1240+</h1>
+          <p class="number-p">Community</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid" id="simon">
+    <p class="simon-p">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti non voluptatem accusantium numquam maiores!
+    </p>
+    <h1 class="simon-h1">HERBERT SIMON</h1>
+  </section>
+  <section class="container-fluid" id="subscribe">
+    <h1 class="subscribe-h1">SUBSCRIBE</h1>
+    <p class="subscribe-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi sequi corrupti praesentium
+      doloremque reiciendis!</p>
+    <input id="subscribe-search" type="search" placeholder="Your Email"><button class="subscribe-button"
+      type="submit">SUBSCRIBE</button>
+  </section>
+  <section class="container-fluid" id="footer">
+    <div class="row" id="footer-row">
+      <div class="col-sm-4" id="footer-col">
+        <h1 class="footer-h1">MUSICOLOGY</h1>
+        <p class="footer-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique saepe culpa
+          odio maiores nemo eum eos aperiam vitae recusandae, hic eveniet id nesciunt.</p>
+          <img class="footer-img" src="Social Media.png">
+      </div>
+      <div class="col-sm" id="footer-col-about">
+        <h1 class="footer-h1">ABOUT</h1>
+        <p class="footer-p1">History</p>
+        <p class="footer-p">Our Team</p>
+        <p class="footer-p">Brand Guidelines</p>
+        <p class="footer-p">Terms & Conditions</p>
+        <p class="footer-p">Privacy Policy</p>
+      </div>
+      <div class="col-sm" id="footer-col">
+        <h1 class="footer-h1">SERVICES</h1>
+        <p class="footer-p1">How to Order</p>
+        <p class="footer-p">Our Product</p>
+        <p class="footer-p">Our Status</p>
+        <p class="footer-p">Promo</p>
+        <p class="footer-p">Payment Method</p>
+      </div>
+      <div class="col-sm" id="footer-col">
+        <h1 class="footer-h1">OTHER</h1>
+        <p class="footer-p1">Contact us</p>
+        <p class="footer-p">Help Us</p>
+        <p class="footer-p">Privacy</p>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
